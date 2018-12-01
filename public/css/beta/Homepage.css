@@ -1,0 +1,969 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    backface-visibility: hidden;
+}
+
+#rectangle-3 {
+    position: absolute;
+    top: 62px;
+    left: 0%;
+    width: 100%;
+    height: 10px;
+    z-index: 10;
+    background-color: rgb(251, 175, 93);
+    right: 0%;
+    margin: auto;
+}
+
+#logo-balka {
+    position: absolute;
+    top: 88px;
+    left: -476px;
+    width: 178px;
+    height: 153px;
+    z-index: 20;
+    right: 476px;
+    margin: auto;
+}
+
+#tentang-kami {
+    position: absolute;
+    top: 148px;
+    left: -225.5px;
+    width: 115px;
+    z-index: 30;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 0.8;
+    color: rgb(118, 118, 118);
+    text-align: center;
+    direction: ltr;
+    right: 225.5px;
+    margin: auto;
+}
+
+#hubungi-kami {
+    position: absolute;
+    top: 148px;
+    left: 22.5px;
+    width: 119px;
+    z-index: 40;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 0.8;
+    color: rgb(118, 118, 118);
+    text-align: center;
+    direction: ltr;
+    right: -22.5px;
+    margin: auto;
+}
+
+#base_komik_grid {
+    position: absolute;
+    top: 863px;
+    left: 0.1%;
+    width: 100%;
+    height: 891px;
+    z-index: 60;
+    background-color: rgb(235, 235, 235);
+    right: -0.1%;
+    margin: auto;
+}
+
+#_002_oneiroi {
+    position: absolute;
+    top: 0px;
+    left: -143.7px;
+    width: 262px;
+    height: 353px;
+    z-index: 70;
+    right: 143.7px;
+    margin: auto;
+}
+
+#sandy_brown_container {
+    position: absolute;
+    top: 0px;
+    left: -38.4%;
+    width: 23.6%;
+    height: 353px;
+    z-index: 80;
+    background-color: rgb(255, 182, 79);
+    right: 38.4%;
+    margin: auto;
+}
+
+#_003_host {
+    position: absolute;
+    top: 0px;
+    left: 147.3px;
+    width: 262px;
+    height: 353px;
+    z-index: 90;
+    right: -147.3px;
+    margin: auto;
+}
+
+#_004_distort {
+    position: absolute;
+    top: 0px;
+    left: 439.3px;
+    width: 262px;
+    height: 353px;
+    z-index: 100;
+    right: -439.3px;
+    margin: auto;
+}
+
+#_005_kuki {
+    position: absolute;
+    top: 378px;
+    left: -435.7px;
+    width: 262px;
+    height: 353px;
+    z-index: 110;
+    right: 435.7px;
+    margin: auto;
+}
+
+#_006_kabur {
+    position: absolute;
+    top: 380px;
+    left: -143.7px;
+    width: 262px;
+    height: 353px;
+    z-index: 120;
+    right: 143.7px;
+    margin: auto;
+}
+
+#_007_opposite {
+    position: absolute;
+    top: 380px;
+    left: 147.3px;
+    width: 262px;
+    height: 353px;
+    z-index: 130;
+    right: -147.3px;
+    margin: auto;
+}
+
+#_008_my-goddess {
+    position: absolute;
+    top: 380px;
+    left: 439.3px;
+    width: 262px;
+    height: 353px;
+    z-index: 140;
+    right: -439.3px;
+    margin: auto;
+}
+
+#tombol-komik {
+    position: absolute;
+    top: 35px;
+    left: -430px;
+    width: 264px;
+    height: 40px;
+    z-index: 160;
+    background-color: rgb(0, 114, 188);
+    border-radius: 5px;
+    right: 430px;
+    margin: auto;
+}
+
+#komik {
+    position: absolute;
+    top: 11px;
+    left: 7px;
+    width: 78px;
+    z-index: 170;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    line-height: 0.8;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    direction: ltr;
+    right: -7px;
+    margin: auto;
+}
+
+#base-ilustrasi {
+    position: absolute;
+    top: 67px;
+    left: 0.1%;
+    width: 100%;
+    height: 738px;
+    z-index: 190;
+    background-color: rgb(70, 70, 70);
+    right: -0.1%;
+    margin: auto;
+}
+
+#rectangle-11-copy-3 {
+    position: absolute;
+    top: 0px;
+    left: -264.2px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 200;
+    background-color: rgb(161, 134, 190);
+    right: 264.2px;
+    margin: auto;
+}
+
+#rectangle-11-copy-4 {
+    position: absolute;
+    top: 0px;
+    left: -39.8%;
+    width: 20.3%;
+    height: 275px;
+    z-index: 210;
+    background-color: rgb(124, 197, 118);
+    right: 39.8%;
+    margin: auto;
+}
+
+#rectangle-11-copy {
+    position: absolute;
+    top: 0px;
+    left: 281.2px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 220;
+    background-color: rgb(249, 173, 129);
+    right: -281.2px;
+    margin: auto;
+}
+
+#rectangle-11-copy-5 {
+    position: absolute;
+    top: 0px;
+    left: 553.8px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 230;
+    background-color: rgb(168, 100, 168);
+    right: -553.8px;
+    margin: auto;
+}
+
+#rectangle-11-copy-2 {
+    position: absolute;
+    top: 0px;
+    left: 8.5px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 240;
+    background-color: rgb(255, 245, 104);
+    right: -8.5px;
+    margin: auto;
+}
+
+#rectangle-11-copy-3-2 {
+    position: absolute;
+    top: 0px;
+    left: -264.2px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 260;
+    background-color: rgb(109, 207, 246);
+    right: 264.2px;
+    margin: auto;
+}
+
+#rectangle-11-copy-4-2 {
+    position: absolute;
+    top: 0px;
+    left: -39.8%;
+    width: 20.3%;
+    height: 275px;
+    z-index: 270;
+    background-color: rgb(242, 109, 125);
+    right: 39.8%;
+    margin: auto;
+}
+
+#rectangle-11-copy-6 {
+    position: absolute;
+    top: 0px;
+    left: 281.2px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 280;
+    background-color: rgb(255, 245, 104);
+    right: -281.2px;
+    margin: auto;
+}
+
+#rectangle-11-copy-5-2 {
+    position: absolute;
+    top: 0px;
+    left: 553.8px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 290;
+    background-color: rgb(130, 202, 156);
+    right: -553.8px;
+    margin: auto;
+}
+
+#rectangle-11-copy-2-2 {
+    position: absolute;
+    top: 0px;
+    left: 8.5px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 300;
+    background-color: rgb(168, 100, 168);
+    right: -8.5px;
+    margin: auto;
+}
+
+#rectangle-11-copy-3-3 {
+    position: absolute;
+    top: 0px;
+    left: -264.2px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 320;
+    background-color: rgb(135, 129, 189);
+    right: 264.2px;
+    margin: auto;
+}
+
+#rectangle-11-copy-4-3 {
+    position: absolute;
+    top: 0px;
+    left: -39.8%;
+    width: 20.3%;
+    height: 275px;
+    z-index: 330;
+    background-color: rgb(28, 187, 180);
+    right: 39.8%;
+    margin: auto;
+}
+
+#rectangle-11-copy-7 {
+    position: absolute;
+    top: 0px;
+    left: 281.2px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 340;
+    background-color: rgb(130, 202, 156);
+    right: -281.2px;
+    margin: auto;
+}
+
+#rectangle-11-copy-5-3 {
+    position: absolute;
+    top: 0px;
+    left: 553.8px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 350;
+    background-color: rgb(251, 175, 93);
+    right: -553.8px;
+    margin: auto;
+}
+
+#rectangle-11-copy-2-3 {
+    position: absolute;
+    top: 0px;
+    left: 8.5px;
+    width: 274.3px;
+    height: 275px;
+    z-index: 360;
+    background-color: rgb(125, 167, 217);
+    right: -8.5px;
+    margin: auto;
+}
+
+#rectangle-9 {
+    position: absolute;
+    top: 106px;
+    left: -31.7%;
+    width: 19.4%;
+    height: 355px;
+    z-index: 390;
+    background-color: rgb(99, 99, 99);
+    right: 31.7%;
+    margin: auto;
+}
+
+#rectangle-9-copy {
+    position: absolute;
+    top: 106px;
+    left: -10.1%;
+    width: 19.4%;
+    height: 355px;
+    z-index: 400;
+    background-color: rgb(99, 99, 99);
+    right: 10.1%;
+    margin: auto;
+}
+
+#rectangle-9-copy-2 {
+    position: absolute;
+    top: 106px;
+    left: 11.5%;
+    width: 19.4%;
+    height: 355px;
+    z-index: 410;
+    background-color: rgb(99, 99, 99);
+    right: -11.5%;
+    margin: auto;
+}
+
+#rectangle-9-copy-3 {
+    position: absolute;
+    top: 106px;
+    left: 33%;
+    width: 19.4%;
+    height: 355px;
+    z-index: 420;
+    background-color: rgb(99, 99, 99);
+    right: -33%;
+    margin: auto;
+}
+
+#tombol-cerita {
+    position: absolute;
+    top: 24px;
+    left: -31.8%;
+    width: 19.5%;
+    height: 40px;
+    z-index: 430;
+    background-color: rgb(0, 114, 188);
+    border-radius: 5px;
+    right: 31.8%;
+    margin: auto;
+}
+
+#cerita {
+    position: absolute;
+    top: 11px;
+    left: 2.8px;
+    width: 73.5px;
+    z-index: 440;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    line-height: 0.8;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    direction: ltr;
+    right: -2.8px;
+    margin: auto;
+}
+
+#rubrik-3 {
+    position: absolute;
+    top: 518px;
+    left: 0.1%;
+    width: 100%;
+    height: 354px;
+    z-index: 470;
+    background-color: rgb(54, 54, 54);
+    right: -0.1%;
+    margin: auto;
+}
+
+#jalan-menjadi-komikus {
+    position: absolute;
+    top: 205px;
+    left: -51.5px;
+    width: 197px;
+    z-index: 480;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 0.8;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    direction: ltr;
+    right: 51.5px;
+    margin: auto;
+}
+
+#tifal_2 {
+    position: absolute;
+    top: 0px;
+    left: -52px;
+    width: 360px;
+    height: 176px;
+    z-index: 490;
+    right: 52px;
+    margin: auto;
+}
+
+#cinta-segitiga-penulis-komikus-editor {
+    position: absolute;
+    top: 205px;
+    left: -23.5px;
+    width: 328px;
+    z-index: 510;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 0.8;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    direction: ltr;
+    right: 23.5px;
+    margin: auto;
+}
+
+#dika_1 {
+    position: absolute;
+    top: 1px;
+    left: -26.5px;
+    width: 358px;
+    height: 176px;
+    z-index: 520;
+    right: 26.5px;
+    margin: auto;
+}
+
+#komik-hanya-untuk-anak-kecil {
+    position: absolute;
+    top: 205px;
+    left: 13.5px;
+    width: 261px;
+    z-index: 540;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 0.8;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    direction: ltr;
+    right: -13.5px;
+    margin: auto;
+}
+
+#ilustrasi_03 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    height: 176px;
+    z-index: 550;
+    right: 0px;
+    margin: auto;
+}
+
+#tombol-rubrik {
+    position: absolute;
+    top: 24px;
+    left: -430px;
+    width: 264px;
+    height: 40px;
+    z-index: 580;
+    background-color: rgb(0, 114, 188);
+    border-radius: 5px;
+    right: 430px;
+    margin: auto;
+}
+
+#rubrik {
+    position: absolute;
+    top: 11px;
+    left: 7.5px;
+    width: 87px;
+    z-index: 590;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    line-height: 0.8;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    direction: ltr;
+    right: -7.5px;
+    margin: auto;
+}
+
+#slideshow {
+    position: absolute;
+    top: 60px;
+    left: 0%;
+    width: 100%;
+    height: 458px;
+    z-index: 620;
+    right: 0%;
+    margin: auto;
+    background-color: rgb(222, 222, 42);
+}
+
+#balkachan {
+    position: absolute;
+    top: 13px;
+    left: 29.2%;
+    width: 24.3%;
+    height: 435px;
+    z-index: 630;
+    right: -29.2%;
+    margin: auto;
+    background-image: url("../images/balkachan.png");
+    background-size: cover;
+    background-color: transparent;
+    background-position: center top;
+}
+
+#balon-kata-punya-cerita {
+    position: absolute;
+    top: 0.003125px;
+    left: 29.5px;
+    width: 478px;
+    z-index: 640;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 67.5px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    direction: ltr;
+    right: -29.5px;
+    margin: auto;
+}
+
+#menyingkap-keseharian-di-balon-kata {
+    position: absolute;
+    top: 173.203px;
+    left: -24px;
+    width: 373px;
+    z-index: 650;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    font-size: 25px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    direction: ltr;
+    right: 24px;
+    margin: auto;
+}
+
+#rectangle-2 {
+    position: absolute;
+    top: 2.70313px;
+    left: -258.7px;
+    width: 19.7px;
+    height: 260px;
+    z-index: 660;
+    background-color: rgb(255, 255, 255);
+    right: 258.7px;
+    margin: auto;
+}
+
+#navpanel {
+    position: absolute;
+    top: 0px;
+    left: -17.3px;
+    width: 15px;
+    height: 15px;
+    z-index: 690;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    right: 17.3px;
+    margin: auto;
+}
+
+#navpanel-copy {
+    position: absolute;
+    top: 0px;
+    left: 0.3px;
+    width: 15px;
+    height: 15px;
+    z-index: 700;
+    background-color: rgb(215, 215, 215);
+    border-radius: 50%;
+    right: -0.3px;
+    margin: auto;
+}
+
+#navpanel-copy-2 {
+    position: absolute;
+    top: 0px;
+    left: 17.3px;
+    width: 15px;
+    height: 15px;
+    z-index: 710;
+    background-color: rgb(215, 215, 215);
+    border-radius: 50%;
+    right: -17.3px;
+    margin: auto;
+}
+
+#arrow_right {
+    position: absolute;
+    top: 0px;
+    left: 615.3px;
+    width: 12px;
+    height: 22px;
+    z-index: 730;
+    right: -615.3px;
+    margin: auto;
+}
+
+#arrow_left {
+    position: absolute;
+    top: 0px;
+    left: -615.7px;
+    width: 12px;
+    height: 22px;
+    z-index: 740;
+    right: 615.7px;
+    margin: auto;
+}
+
+#header-2 {
+    position: absolute;
+    top: 0px;
+    left: 0.1%;
+    width: 100%;
+    height: 60px;
+    z-index: 780;
+    background-color: rgb(0, 0, 0);
+    right: -0.1%;
+    margin: auto;
+}
+
+#rounded-rectangle-2 {
+    position: absolute;
+    top: 15px;
+    left: 446px;
+    width: 180px;
+    height: 29px;
+    z-index: 790;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    right: -446px;
+    margin: auto;
+}
+
+#search {
+    position: absolute;
+    top: 15px;
+    left: 562px;
+    width: 28px;
+    height: 29px;
+    z-index: 800;
+    right: -562px;
+    margin: auto;
+}
+
+#blog {
+    position: absolute;
+    top: 23px;
+    left: 306.5px;
+    width: 41px;
+    z-index: 810;
+    white-space: nowrap;
+    font-family: "Helvetica Ltstd", Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 0.8;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    direction: ltr;
+    right: -306.5px;
+    margin: auto;
+}
+
+#logo_monokrom {
+    position: absolute;
+    top: 10px;
+    left: -525.5px;
+    width: 47px;
+    height: 41px;
+    z-index: 820;
+    right: 525.5px;
+    margin: auto;
+}
+
+#arrow {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 22px;
+    z-index: 730;
+    right: 0%;
+    margin: auto;
+}
+
+#dot {
+    position: absolute;
+    top: 215.5px;
+    left: -0.9px;
+    width: 49.5px;
+    height: 15px;
+    z-index: 690;
+    right: 0.9px;
+    margin: auto;
+}
+
+#navpanel-2 {
+    position: absolute;
+    top: 209px;
+    left: 0.7%;
+    width: 92.1%;
+    height: 230.5px;
+    z-index: 690;
+    right: -0.7%;
+    margin: auto;
+}
+
+#text {
+    position: absolute;
+    top: 87.3px;
+    left: -288.5px;
+    width: 537px;
+    height: 262.7px;
+    z-index: 640;
+    right: 288.5px;
+    margin: auto;
+}
+
+#rubrik_03 {
+    position: absolute;
+    top: 0px;
+    left: 34.2%;
+    width: 31.6%;
+    height: 219px;
+    z-index: 540;
+    right: -34.2%;
+    margin: auto;
+}
+
+#rubrik_02 {
+    position: absolute;
+    top: 0px;
+    left: 0.1%;
+    width: 31.7%;
+    height: 219px;
+    z-index: 510;
+    right: -0.1%;
+    margin: auto;
+}
+
+#rubrik_01 {
+    position: absolute;
+    top: 0px;
+    left: -34.2%;
+    width: 31.6%;
+    height: 219px;
+    z-index: 480;
+    right: 34.2%;
+    margin: auto;
+}
+
+#rubrik-2 {
+    position: absolute;
+    top: 92px;
+    left: 0.6%;
+    width: 84.3%;
+    height: 219px;
+    z-index: 480;
+    right: -0.6%;
+    margin: auto;
+}
+
+#kolom1 {
+    position: absolute;
+    top: 66px;
+    left: 0%;
+    width: 100%;
+    height: 275px;
+    z-index: 320;
+    right: 0%;
+    margin: auto;
+}
+
+#kolom2 {
+    position: absolute;
+    top: 340px;
+    left: 0%;
+    width: 100%;
+    height: 275px;
+    z-index: 260;
+    right: 0%;
+    margin: auto;
+}
+
+#kolom3 {
+    position: absolute;
+    top: 616px;
+    left: 0%;
+    width: 100%;
+    height: 275px;
+    z-index: 200;
+    right: 0%;
+    margin: auto;
+}
+
+#komik_grid {
+    position: absolute;
+    top: 109px;
+    left: 0.5%;
+    width: 84.4%;
+    height: 733px;
+    z-index: 70;
+    right: -0.5%;
+    margin: auto;
+}
+
+section {
+    width: 100%;
+    left: 0px;
+    position: relative;
+    overflow: visible;
+}
+
+#base_komik_grid-section {
+    z-index: 60;
+    height: 1754px;
+}
+
+#kolom-cerita-section {
+    z-index: 390;
+    height: 461px;
+}
+
+#ilustrasi-section {
+    z-index: 190;
+    height: 891px;
+}
+
+#footer-section {
+    z-index: 10;
+    height: 305px;
+    margin-left: 0px;
+    margin-top: -61px;
+}

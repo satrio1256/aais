@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);@import url(https://fonts.googleapis.com/css?family=Roboto);html {
+  min-height: 100%;
+}
+
+body {
+  background-attachment: fixed !important;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-color: #f3f3f3;
+}
+
+.login-container {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #191919;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 6px #4e4e4e;
+          box-shadow: 0px 0px 6px #4e4e4e;
+}
+
+.login-inner {
+  margin: 10px;
+  text-align: center;
+}
+
+.login-inner img {
+  height: 100px;
+}
+
+.login-inner .login-text {
+  margin: 10px 0 25px 0;
+}
+
+.forgot-text {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #191919;
+}
+
+.forgot-text a {
+  text-decoration: none;
+  color: #ff9800;
+}
+
+.forgot-text a:hover {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.login-inner input {
+  display: block;
+  clear: both;
+  width: 300px;
+  margin: 10px;
+  padding: 7px 15px;
+  border-radius: 7px;
+  border: 1px solid #bfbfbf;
+}
+
+.login-inner input:focus {
+  outline: none;
+}
+
+.login-inner input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.login-inner button {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  background: #ff9800;
+  color: #191919;
+  border-radius: 5px;
+  margin: 30px 0 5px 0;
+}
+
+.login-inner button:hover {
+  background: #3293c1;
+  color: #EAEAEA;
+}
+
+.login-inner button:active {
+  background: #ff9800;
+}
