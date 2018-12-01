@@ -21,7 +21,7 @@ class SDLogistikController extends Controller
   public function processInputSdl(Request $request)
   {
     $sdlogistic = new Sdlogistik();
-    $sdlogistic->saveJadwalPengiriman($request->$idPengiriman, $idBarang, $namaBarang, $tanggalBerangkat);
+    $sdlogistic->saveJadwalPengiriman($request->IdPengiriman, $request->IdBarang, $request->NamaBarang, $request->tanggalBerangkat);
     return redirect('/sdlogistik');
   }
 }

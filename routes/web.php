@@ -26,7 +26,7 @@ Route::get('/logout', ['uses' => 'LoginController@logout']);
 Route::post('/login/process', ['uses' => 'LoginController@authenticate']);
 Route::post('/penguji/input/process', ['uses' => 'PengujianController@processInput']);
 Route::post('/perakit/input/process', ['uses' => 'PerakitanController@processStatusPerakitan']);
-Route::post('/sdlogistik/input/process', ['uses' => 'PerakitanController@processInputSdl']);
+Route::post('/sdlogistik/input/process', ['uses' => 'SDLogistikController@processInputSdl']);
 
 Route::get('/signup', function() {
   return view('daftar');

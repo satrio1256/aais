@@ -90,10 +90,10 @@
               						<div class="col-xs-12">
               							<div class="form-container">
               								<div class="form-container-head">
-              									ID Pengujian
+              									ID Pengiriman
               								</div>
               								<div class="form-container-content">
-              									<input name="idPengujian">
+              									<input name="IdPengiriman">
               								</div>
               							</div>
               						</div>
@@ -102,10 +102,10 @@
               						<div class="col-xs-12">
               							<div class="form-container">
               								<div class="form-container-head">
-              									ID Pesawat
+              									ID Barang
               								</div>
                               <div class="form-container-content">
-              									<input name="idPesawat">
+              									<input name="IdBarang">
               								</div>
               							</div>
               						</div>
@@ -114,10 +114,10 @@
               						<div class="col-xs-12 col-md-12" id="news-submit">
               							<div class="form-container summernote-editor">
               								<div class="form-container-head">
-              									Nama Pesawat
+              									Nama Barang
               								</div>
                               <div class="form-container-content">
-              									<input name="namaPesawat">
+              									<input name="NamaBarang">
               								</div>
               							</div>
               						</div>
@@ -126,22 +126,10 @@
               						<div class="col-xs-12 col-md-12" id="news-submit">
               							<div class="form-container summernote-editor">
               								<div class="form-container-head">
-              									Hasil Pengujian
+              									Tanggal Berangkat
               								</div>
                               <div class="form-container-content">
-              									<input name="hasilPengujian">
-              								</div>
-              							</div>
-              						</div>
-              					</div>
-                        <div class="row">
-              						<div class="col-xs-12 col-md-12" id="news-submit">
-              							<div class="form-container summernote-editor">
-              								<div class="form-container-head">
-              									Komentar
-              								</div>
-                              <div class="form-container-content">
-              									<textarea name="komentar"></textarea>
+              									<input name="tanggalBerangkat">
               								</div>
               							</div>
               						</div>
